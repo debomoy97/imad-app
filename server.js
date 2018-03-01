@@ -9,6 +9,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/img', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'https://pbs.twimg.com/profile_images/759324106659622912/HqNDsxpL_400x400.jpg'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
