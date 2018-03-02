@@ -5,8 +5,8 @@ var img = document.getElementById('pic'
     );
 var marginBottom = 0;
 function moveRight(){
-    marginBottom = marginBottom + 4;
-    img.style.marginBottom = marginBottom + 'px';
+    marginTop = marginTop + 4;
+    img.style.marginTop = marginTop + 'px';
 }
 my.onclick = function(){
      var interval = setInterval(moveRight,50); 
