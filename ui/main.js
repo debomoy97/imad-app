@@ -1,7 +1,4 @@
 console.log('Loaded!');
-var element = document.getElementById('my'
-    );
-element.innerHTML='Happy Birthday';
 var img = document.getElementById('pic'
     );
 var marginLeft = 0;
