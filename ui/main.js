@@ -1,10 +1,10 @@
 console.log('Loaded!');
 var img = document.getElementById('pic'
     );
-var marginLeft = 0;
+var marginTop = 0;
 function moveRight(){
-    marginLeft = marginLeft + 5;
-    img.style.marginLeft = marginLeft + 'px';
+    marginTop = marginTop + 5;
+    img.style.marginTop = marginTop + 'px';
 }
 img.onclick = function(){
      var interval = setInterval(moveRight,100); 
