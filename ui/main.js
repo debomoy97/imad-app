@@ -4,6 +4,11 @@ var element = document.getElementById('my'
 element.innerHTML='Happy Birthday';
 var img = document.getElementById('pic'
     );
+var marginLeft = 0;
+function moveRight(){
+    marginLeft = marginLeft + 10;
+    img.style.marginLeft = marginLeft + 'px';
+}
 img.onclick = function(){
-     img.style.marginleft="500px"; 
+     var interval = setInterval(moveRight,100); 
     };
