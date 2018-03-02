@@ -3,9 +3,9 @@ var img = document.getElementById('pic'
     );
 var marginTop = 0;
 function moveRight(){
-    marginTop = marginTop + 5;
+    marginTop = marginTop + 4;
     img.style.marginTop = marginTop + 'px';
 }
 img.onclick = function(){
-     var interval = setInterval(moveRight,100); 
+     var interval = setInterval(moveRight,50); 
     };
