@@ -4,6 +4,9 @@ body {
     margin-top: 100px;
 }
 
+p{
+    color: red;
+}
 .center {
     text-align: center;
 }
