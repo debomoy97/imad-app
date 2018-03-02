@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/myarticle', function (req, res) {
-  res.send("https://www.ncqma.com/wp-content/uploads/2016/01/surprise-happy-birthday-gifts-5.jpg");
+  res.send('my article');
 });
 
 app.get('/ui/style.css', function (req, res) {
