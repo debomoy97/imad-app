@@ -1,7 +1,7 @@
 body {
     font-family: arial;
     background-color: pink;
-    margin-top: 600px;
+    margin-top: 200px;
 }
 
 .center {
@@ -10,7 +10,6 @@ body {
 
 .text-big {
     font-size: 300%;
-    text-color: red;
 }
 
 .bold {
